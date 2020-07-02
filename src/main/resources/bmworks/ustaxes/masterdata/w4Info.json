@@ -1,0 +1,19 @@
+{
+  "modelName" : "w4Info",
+  "title" : "Employee’s Withholding Certificate (W-4)",
+
+  "fields": [
+
+    { "fieldId"   : "maritalStatus",
+      "fieldText" : "Marital Status",
+      "fieldType" : "list",
+      "values"    : { "single" : "Single or Married filing separately",
+                      "married": "Married filing jointly",
+                      "head"   : "Head of household"               } },
+
+    { "fieldId"   : "SSN",
+      "fieldText" : "Social Security Number",
+      "fieldType" : "number",
+      "maxLength" : "9" }
+  ]
+}
